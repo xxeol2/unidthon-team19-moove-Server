@@ -1,0 +1,78 @@
+windows 볼륨에 대한 폴더 경로의 목록입니다.
+볼륨 일련 번호가 00000006 8EFA:C815입니다.
+C:\STUDY\MOOVE\UNIDTHON-TEAM19-MOOVE-SERVER\SRC
+|   index.ts
+|   
++---config
+|       index.ts
+|       
++---controller
+|       adminController.ts
+|       authController.ts
+|       basketController.ts
+|       goodsController.ts
+|       index.ts
+|       staffController.ts
+|       userController.ts
+|       
++---DTO
+|       adminDTO.ts
+|       authDTO.ts
+|       goodsDTO.ts
+|       index.ts
+|       staffDTO.ts
+|       userDTO.ts
+|       
++---library
+|       cast.ts
+|       date.ts
+|       emailSender.ts
+|       emailTemplate.ejs
+|       index.ts
+|       jwt.ts
+|       response.ts
+|       returnCode.ts
+|       univMajor.ts
+|       
++---middleware
+|       adminAuth.ts
+|       auth.ts
+|       index.ts
+|       publicAuth.ts
+|       staffAuth.ts
+|       typeCheck.ts
+|       
++---models
+|       AuthenticationCode.ts
+|       FundGen.ts
+|       GenGoods.ts
+|       GenManage.ts
+|       Goods.ts
+|       index.ts
+|       Order.ts
+|       OrderDetail.ts
+|       PickUp.ts
+|       Staff.ts
+|       User.ts
+|       
++---modules
+|       upload.ts
+|       
++---router
+|       adminRouter.ts
+|       authRouter.ts
+|       basketRouter.ts
+|       goodsRouter.ts
+|       index.ts
+|       staffRouter.ts
+|       userRouter.ts
+|       
+\---service
+        adminService.ts
+        authService.ts
+        basketService.ts
+        goodsService.ts
+        index.ts
+        staffService.ts
+        userService.ts
+        
