@@ -1,0 +1,1 @@
+{"version":3,"file":"adminRouter.js","sourceRoot":"","sources":["../../src/router/adminRouter.ts"],"names":[],"mappings":";;;;;AAAA,sDAA8B;AAC9B,8CAAgD;AAChD,8CAAyE;AAEzE,MAAM,MAAM,GAAG,iBAAO,CAAC,MAAM,EAAE,CAAC;AAEhC,MAAM,CAAC,IAAI,CAAC,QAAQ,EAAE,4BAAe,CAAC,wBAAwB,CAAC,CAAC;AAChE,MAAM,CAAC,IAAI,CACT,sBAAsB,EACtB,gCAAmB,EACnB,4BAAe,CAAC,mBAAmB,CACpC,CAAC;AAEF,kBAAe,MAAM,CAAC"}
