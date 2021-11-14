@@ -33,22 +33,28 @@ Android 5.0 API LEVEL 21(Lollipop) 이상의 환경에서 권장됩니다.
 
 
 ```
-C:.
+SRC
 |   index.ts
-|   output.txt
 |   
 +---config
 |       index.ts
 |       
 +---controller
+|       adminController.ts
 |       authController.ts
+|       basketController.ts
+|       goodsController.ts
 |       index.ts
-|       roomController.ts
+|       staffController.ts
+|       userController.ts
 |       
 +---DTO
+|       adminDTO.ts
 |       authDTO.ts
+|       goodsDTO.ts
 |       index.ts
-|       roomDTO.ts
+|       staffDTO.ts
+|       userDTO.ts
 |       
 +---library
 |       cast.ts
@@ -59,43 +65,50 @@ C:.
 |       jwt.ts
 |       response.ts
 |       returnCode.ts
+|       univMajor.ts
 |       
 +---middleware
+|       adminAuth.ts
 |       auth.ts
 |       index.ts
 |       publicAuth.ts
+|       staffAuth.ts
 |       typeCheck.ts
 |       
 +---models
-|       Certification.ts
-|       Code.ts
+|       AuthenticationCode.ts
+|       FundGen.ts
+|       GenGoods.ts
+|       GenManage.ts
+|       Goods.ts
 |       index.ts
-|       Like.ts
-|       Message.ts
-|       MessageRoom.ts
-|       Participant.ts
-|       Room.ts
-|       RoomCondition.ts
-|       RoomInformation.ts
-|       RoomOption.ts
-|       RoomPeriod.ts
-|       RoomPhoto.ts
-|       RoomPrice.ts
-|       RoomType.ts
+|       Order.ts
+|       OrderDetail.ts
+|       PickUp.ts
+|       Staff.ts
 |       User.ts
 |       
 +---modules
 |       upload.ts
 |       
 +---router
+|       adminRouter.ts
 |       authRouter.ts
+|       basketRouter.ts
+|       goodsRouter.ts
 |       index.ts
-|       roomRouter.ts
+|       staffRouter.ts
+|       userRouter.ts
 |       
 \---service
+        adminService.ts
         authService.ts
+        basketService.ts
+        goodsService.ts
         index.ts
-        roomService.ts
+        staffService.ts
+        userService.ts
+        
 ```
 
 
